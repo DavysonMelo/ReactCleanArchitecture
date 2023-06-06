@@ -4,7 +4,10 @@
   "main": "index.js",
   "author": "Davyson Melo <davyson.melo@liferay.com>",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "yarn jest -- --watch",
+    "test:staged": "yarn jest -- --findRelatedTests",
+    "test:ci": "yarn jest -- --coverage"
   },
   "license": "MIT",
   "devDependencies": {
