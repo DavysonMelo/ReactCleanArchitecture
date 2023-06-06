@@ -1,4 +1,4 @@
-import { AccountModel } from '../models/acount-model'
+import { AccountModel } from '../models/account-model'
 
 type AuthenticationParams = {
   email: string
